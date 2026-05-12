@@ -1,0 +1,38 @@
+name: pdsk_klasifikasi_kerusakan_ban
+description: "Aplikasi klasifikasi kerusakan ban menggunakan CNN."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.7
+  dio: ^5.8.0+1
+  image_picker: ^1.1.2
+  image: ^4.5.4
+  shared_preferences: ^2.3.3
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+  permission_handler: ^12.0.0+1
+  path_provider: ^2.1.5
+  flutter_dotenv: ^5.2.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+  build_runner: ^2.4.15
+  injectable_generator: ^2.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
